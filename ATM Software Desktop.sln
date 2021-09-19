@@ -5,7 +5,11 @@ VisualStudioVersion = 16.0.31702.278
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ATM Software", "ATM Software\ATM Software.csproj", "{A87FBFB4-112A-438A-9499-2A2ED7097175}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ATM API", "ATM API\ATM API.csproj", "{FCA7DE91-D4D9-4D00-81AD-20B5BDE7CA33}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ATM Lib", "ATM Lib", "{CA01AE7B-C98B-46C5-9552-959738415395}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ATMLib", "ATMLib\ATMLib.csproj", "{4C116CBB-FBBE-4CAE-B7D5-6E247FD89D25}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ATM API", "ATM API\ATM API.csproj", "{219EE993-9760-4390-98BC-6776A5222E02}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,13 +21,20 @@ Global
 		{A87FBFB4-112A-438A-9499-2A2ED7097175}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A87FBFB4-112A-438A-9499-2A2ED7097175}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A87FBFB4-112A-438A-9499-2A2ED7097175}.Release|Any CPU.Build.0 = Release|Any CPU
-		{FCA7DE91-D4D9-4D00-81AD-20B5BDE7CA33}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{FCA7DE91-D4D9-4D00-81AD-20B5BDE7CA33}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{FCA7DE91-D4D9-4D00-81AD-20B5BDE7CA33}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{FCA7DE91-D4D9-4D00-81AD-20B5BDE7CA33}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4C116CBB-FBBE-4CAE-B7D5-6E247FD89D25}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4C116CBB-FBBE-4CAE-B7D5-6E247FD89D25}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4C116CBB-FBBE-4CAE-B7D5-6E247FD89D25}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4C116CBB-FBBE-4CAE-B7D5-6E247FD89D25}.Release|Any CPU.Build.0 = Release|Any CPU
+		{219EE993-9760-4390-98BC-6776A5222E02}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{219EE993-9760-4390-98BC-6776A5222E02}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{219EE993-9760-4390-98BC-6776A5222E02}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{219EE993-9760-4390-98BC-6776A5222E02}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{4C116CBB-FBBE-4CAE-B7D5-6E247FD89D25} = {CA01AE7B-C98B-46C5-9552-959738415395}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {AE678BE1-EB45-462F-8A7B-EFF58BD53EAF}
